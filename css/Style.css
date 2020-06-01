@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	color: #32325f;
+}
+.hero {
+	padding-top: 75px;
+	padding-bottom: 190px;
+}
+.navbar {
+	padding: 0px;
+}
+.logo {
+	text-transform: uppercase;
+	color: #95989a;
+	font-size: 20px;
+	font-weight: 700;
+}
+.social a{
+	margin-left: 20px;
+}
+.social img {
+	height: 20px;
+}
+.main {
+	margin-top: 160px;
+}
+.subtitle {
+	font-size: 20px;
+	font-weight: 400;
+}
+.title {
+	font-size: 48px;
+	font-weight: 700;
+}
+.description {
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.price-tag {
+	margin-top: 16px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.price {
+	margin-top: 20px;
+	font-size: 48px;
+	font-weight: 400;
+}
+.img-book {
+	margin-left: 65px;
+}
+.buttons {
+	margin-top: 50px;
+}
+.button {
+	margin-right: 30px;
+	padding: 20px 30px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.section {
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.section-subtitle {
+	font-size: 20px;
+	font-weight: 400;
+}
+.section-title {
+	margin-top: 13px;
+	font-size: 48px;
+	font-weight: 700;
+}
+.block-about {
+	margin-top: 100px;	
+}
+#buyers {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#buyers img {
+	margin-bottom: 25px;
+}
+footer {
+	background-color: #32325f;
+	padding: 80px 0px 110px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+}
+.ftitle {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+#fcont {
+	width: 1140px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#fcont>div {
+	width: 362px;
+}
